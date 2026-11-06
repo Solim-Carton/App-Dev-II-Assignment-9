@@ -1,4 +1,6 @@
 import { useArticles } from '../context/ArticlesContext';
+import { useAuth } from '../context/AuthContext';
+
 
 function ArticleCard({ article }) {
   const { saveArticle, removeArticle, isArticleSaved } = useArticles();
